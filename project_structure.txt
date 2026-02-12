@@ -1,0 +1,52 @@
+nl_to_live_physics_sim/
+│
+├── backend/
+│   │
+│   ├── app/
+│   │   ├── main.py
+│   │   │
+│   │   ├── api/
+│   │   │   ├── routes.py
+│   │   │   └── websocket.py
+│   │   │
+│   │   ├── nlp/
+│   │   │   ├── parser.py
+│   │   │   ├── prompt_templates.py
+│   │   │   └── schema.py
+│   │   │
+│   │   ├── physics/
+│   │   │   ├── vector.py
+│   │   │   ├── object.py
+│   │   │   ├── forces.py
+│   │   │   ├── world.py
+│   │   │   ├── simulator.py
+│   │   │   └── equations.py
+│   │   │   └── collision.py
+│   │   │   └── energy.py
+│   │   │   └── circular_motion.py
+│   │   │
+│   │   ├── services/
+│   │   │   └── simulation_service.py
+│   │   │
+│   │   └── models/
+│   │       └── pydantic_models.py
+│   │
+│   ├── requirements.txt
+│   └── run.py
+│
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── SimulationCanvas.jsx
+│   │   │   ├── ParameterControls.jsx
+│   │   │   └── ProblemInput.jsx
+│   │   │
+│   │   ├── pages/
+│   │   │   └── Home.jsx
+│   │   │
+│   │   └── api/
+│   │       └── client.js
+│   │
+│   └── package.json
+│
+└── README.md
