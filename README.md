@@ -1,12 +1,4 @@
-Here is your updated, clean \*\*README.md\*\* content with version references removed and presented as the first release.
-
-
-
----
-
-
-
-\# Physics Simulator
+\# Natural Language to Live Physics Simulator
 
 
 
