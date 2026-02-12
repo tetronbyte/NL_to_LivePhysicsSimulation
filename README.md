@@ -1,3 +1,5 @@
+KinetiQ AI
+
 \# Natural Language to Live Physics Simulator
 
 
