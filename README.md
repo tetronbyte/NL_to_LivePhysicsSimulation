@@ -4,6 +4,9 @@
 
 An AI-powered physics simulation platform with comprehensive visualization, real-time controls, and educational features.
 
+Product Demo:
+https://drive.google.com/drive/folders/1GYG3NaLDfhbJ3CTSNfnDdRKrPfsfjMBl?usp=sharing
+
 
 
 \*\*Sections:\*\* Overview · Features · Architecture · Installation · Quick Start · Usage · API · Physics Concepts · Testing · Contributing
