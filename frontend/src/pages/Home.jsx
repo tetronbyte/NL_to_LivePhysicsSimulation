@@ -211,7 +211,7 @@ const Home = () => {
       {/* Header */}
       <header className="header">
         <div className="header-content">
-          <h1>🚀 Physics Simulator</h1>
+          <h1>KinetiQ AI</h1>
           <div className="header-actions">
             <button className="theme-toggle" onClick={toggleTheme}>
               {theme === 'light' ? '🌙 Dark' : '☀️ Light'}
@@ -236,14 +236,14 @@ const Home = () => {
 
           {error && (
             <div className="error-message">
-              <strong>⚠️ Error:</strong> {error}
+              <strong>Error:</strong> {error}
               <button onClick={() => setError(null)}>✕</button>
             </div>
           )}
 
           {scenarioDescription && (
             <div className="scenario-info">
-              <h3>📋 Current Scenario</h3>
+              <h3>Current Scenario</h3>
               <p>{scenarioDescription}</p>
             </div>
           )}
@@ -314,12 +314,12 @@ const Home = () => {
             ) : (
               <div className="placeholder">
                 <div className="placeholder-content">
-                  <h2>👋 Welcome to Physics Simulator</h2>
+                  <h2>Welcome to Physics Simulator</h2>
                   <p>Get started by:</p>
                   <ul>
-                    <li>🖊️ Typing a physics problem</li>
-                    <li>⚡ Selecting a preset scenario</li>
-                    <li>📚 Learning from examples</li>
+                    <li>- Typing a physics problem</li>
+                    <li>- Selecting a preset scenario</li>
+                    <li>- Learning from examples</li>
                   </ul>
                 </div>
               </div>
@@ -336,13 +336,13 @@ const Home = () => {
                   className={activeTab === 'controls' ? 'active' : ''}
                   onClick={() => setActiveTab('controls')}
                 >
-                  🎮 Controls
+                  Controls
                 </button>
                 <button
                   className={activeTab === 'advanced' ? 'active' : ''}
                   onClick={() => setActiveTab('advanced')}
                 >
-                  ⚙️ Advanced
+                  Advanced Controls
                 </button>
               </div>
 
@@ -372,7 +372,7 @@ const Home = () => {
 
               {/* System Stats */}
               <div className="system-stats">
-                <h4>📊 System Statistics</h4>
+                <h4>System Statistics</h4>
                 <div className="stats-grid">
                   <div className="stat">
                     <span className="stat-label">Objects:</span>
